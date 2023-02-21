@@ -1,0 +1,33 @@
+{
+  "name": "backendmovies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelleArellano/backendMovies.git"
+  },
+  "author": "Michelle Arellano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelleArellano/backendMovies/issues"
+  },
+  "homepage": "https://github.com/MichelleArellano/backendMovies#readme",
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "graphql-yoga": "^1.18.3",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
